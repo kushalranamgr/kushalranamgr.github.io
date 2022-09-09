@@ -1,47 +1,66 @@
 body {
-  background-color: #cdf6f3;
+  margin: auto;
+  background-color: #cbdfdeec;
   text-align: center;
   margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.cloud1 {
-  position: relative;
-  left: 380px;
-  top: 5px;
+h2,h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #087e49de;
+  margin: 20px;
+}  
+
+hr{
+  width: 8%;
+  border-width: 10px;
+  border-color: #218461a5;
+  border-style: dotted none none none;
+  margin: 40px auto;
 }
 
-.cloud2 {
-  position: relative;
-  top: 380px;
-  right: 300px;
+a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #087e49de;
+  text-decoration: none;
 }
+
+.btn{
+  color: wheat;
+  background-color:#087e49de;
+  ;
+  padding: 15px 25px;
+  border-radius: 7px;
+}
+
 .hero {
   margin: auto;
   margin-bottom: 15px;
   text-align: center;
 }
 
-.mountain {
-  filter: brightness(80%);
-  margin: auto;
-}
-
 .name {
   font-style: italic;
   color: #079153de;
-  font-family: "Lucida Sans";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 45px;
-}
-
-.desc {
-  color: #20a86bde;
-  font-family: "Times New Roman";
-  margin-bottom: 40px;
-  font-size: 25px;
 }
 
 .profilepic {
   height: 200px;
   width: 200px;
+  border-radius: 50%;
+}
+
+.frontend{
+  height: 180px ;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.django{
+  height: 180px ;
+  width: 180px;
   border-radius: 50%;
 }
