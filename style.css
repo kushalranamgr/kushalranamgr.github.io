@@ -1,0 +1,47 @@
+body {
+  background-color: #cdf6f3;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.cloud1 {
+  position: relative;
+  left: 380px;
+  top: 5px;
+}
+
+.cloud2 {
+  position: relative;
+  top: 380px;
+  right: 300px;
+}
+.hero {
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.mountain {
+  filter: brightness(80%);
+  margin: auto;
+}
+
+.name {
+  font-style: italic;
+  color: #079153de;
+  font-family: "Lucida Sans";
+  font-size: 45px;
+}
+
+.desc {
+  color: #20a86bde;
+  font-family: "Times New Roman";
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.profilepic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
