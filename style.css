@@ -13,7 +13,7 @@ h2,h3{
 }  
 
 hr{
-  width: 8%;
+  width: 10%;
   border-width: 10px;
   border-color: #218461a5;
   border-style: dotted none none none;
@@ -26,12 +26,32 @@ a{
   text-decoration: none;
 }
 
+footer{
+  position: static;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #087e49de;
+}
+
 .btn{
   color: wheat;
   background-color:#087e49de;
   ;
   padding: 15px 25px;
   border-radius: 7px;
+}
+
+.contact-me{
+  margin-bottom: 40px;
+}
+
+.copyright{
+  vertical-align: middle;
+  padding: 15px;
 }
 
 .hero {
@@ -42,7 +62,7 @@ a{
 
 .name {
   font-style: italic;
-  color: #079153de;
+  color: #008147;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 45px;
 }
@@ -54,6 +74,7 @@ a{
 }
 
 .frontend{
+  filter: brightness(95%);
   height: 180px ;
   width: 180px;
   border-radius: 50%;
