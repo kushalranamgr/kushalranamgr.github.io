@@ -3,16 +3,21 @@ body {
   background-color: #cbdfdeec;
   text-align: center;
   margin-top: 100px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-h2,h3{
-  font-family: 'Montserrat', sans-serif;
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
   color: #087e49de;
   margin: 20px;
-}  
+}
 
-hr{
+div {
+  padding: 0 10px;
+}
+
+hr {
   width: 10%;
   border-width: 10px;
   border-color: #218461a5;
@@ -20,13 +25,13 @@ hr{
   margin: 40px auto;
 }
 
-a{
+a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #087e49de;
   text-decoration: none;
 }
 
-footer{
+footer {
   position: static;
   left: 0;
   bottom: 0;
@@ -35,23 +40,24 @@ footer{
   color: white;
   text-align: center;
   background-color: #087e49de;
+  margin-bottom: 0;
 }
 
-.btn{
+.btn {
   color: wheat;
-  background-color:#087e49de;
-  ;
+  background-color: #087e49de;
   padding: 15px 25px;
   border-radius: 7px;
 }
 
-.contact-me{
+.contact-me {
   margin-bottom: 40px;
 }
 
-.copyright{
+.copyright {
   vertical-align: middle;
   padding: 15px;
+  margin-bottom: 0;
 }
 
 .hero {
@@ -63,8 +69,10 @@ footer{
 .name {
   font-style: italic;
   color: #008147;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 45px;
+  font-family: 'Playball', cursive;
+  font-size: 50px;
+  margin-top: 0;
+  letter-spacing: 6px;
 }
 
 .profilepic {
@@ -73,15 +81,15 @@ footer{
   border-radius: 50%;
 }
 
-.frontend{
+.frontend {
   filter: brightness(95%);
-  height: 180px ;
+  height: 180px;
   width: 180px;
   border-radius: 50%;
 }
 
-.django{
-  height: 180px ;
+.django {
+  height: 180px;
   width: 180px;
   border-radius: 50%;
 }
