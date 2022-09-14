@@ -32,7 +32,7 @@ p{
 }
 
 #footer{
-  margin-top: 20px;
+  margin-top: 100px;
   padding: 7px;
   background-color: #7735FA;
   text-align: center;
@@ -67,4 +67,10 @@ p{
 
 .sub-contents{
   font-family: 'Lato', sans-serif;
+}
+
+.work-in-progress{
+  color: #7735FA;
+  text-align: center;
+  margin: 20px 0 0;
 }
