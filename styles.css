@@ -1,0 +1,70 @@
+
+
+h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: aliceblue;
+  text-align: left;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+}
+
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  color: #e5e5e5;
+}
+
+
+.container-fluid{
+  background-color: #7735FA;
+  padding: 3% 10%;
+}
+
+.copyright{
+  margin: 0;
+  color: #eeeeee;
+  font-size: .5rem;
+}
+
+#footer{
+  margin-top: 20px;
+  padding: 7px;
+  background-color: #7735FA;
+  text-align: center;
+}
+.hero-btn{
+  margin-left: 15px;
+}
+
+.hero-img{
+  height: 18rem;
+  width: 20rem;
+  padding: 20px 20px;
+}
+
+.navbar{
+  padding-bottom: 50px;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+.site-msg{
+  color: aliceblue;
+  text-align: left;
+}
+
+.sub-contents{
+  font-family: 'Lato', sans-serif;
+}

@@ -1,82 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="images/favicon.ico" />
-  <title>Kushal's site</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Playfair+Display:ital@1&display=swap"
-    rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CodeWithKushal</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <div class="hero">
-    <h1 class="name">I'm Kushal</h1>
-    <h3 class="desc">A Web Developer</h3>
-  </div>
+  <div class="container-fluid">
 
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profilepic" src="images/profile.jpg" alt="" />
-      <h2>About Me</h2>
-      <p>
-        I am a full stack web developer with front-end and back-end development experience.
-        <br>
-        I am currently working as a freelancer and I help small businesses and people get their presense online.
-      </p>
-    </div>
-    <hr />
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="frontend" src="images/frontend.png" alt="" />
-        <h3>front-end web designer</h3>
-        <p>
-          I am well versed in Html, Css, Javascript, Bootstap and React. <br>
-          I can help you make awesome and interactive website as per your needs.
-        </p>
-      </div>
-      <div class="skill-row">
-        <img class="django" src="images/django.png" alt="" />
-        <h3>
-          Django / Nodejs
-        </h3>
-        <p>I have good experience of Python and Django and i can make you Highly scalable website. <br>
-          I am also well versed in Nodejs if you want to use node as your backend.
-        </p>
-      </div>
-    </div>
-    <hr />
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>kushalrana@gmail.com</h3>
-      <p>
-        Please contact me if you are intrested or in need of any kind of website. <br>
-        I can make you static as well as Dynamic websites as per your need with system of your choice.
-      </p>
-      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-    </div>
-  </div>
+    <section id="title" class="row">
 
-  <!--
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    -->
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href=""><span>Developer's Hut</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto sub-contents">
+            <li class="nav-item">
+              <a class="nav-link" href="">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+      <!-- Title -->
+
+      <div class="col-md-6">
+        <h1>Bring your thoughts to reality with Websites</h1>
+        <p class="site-msg">Your website is the face of your business. A well-designed website puts your best foot
+          forward, establishing
+          credibility and authority with your potential clients, furthermore communicating your most interesting values,
+          messages, and mission statements. <br> I provide a professional, local, and hands-on experience to build your website design, or redesign,
+          from start to finish with affordable cost
+        </p>
+
+      </div>
+      <div class="col-md-6">
+        <img src="images/pngwing.com.png" alt="hero-img" class="hero-img">
+        <button type="button" class="btn btn-outline-light hero-btn"><i class="fa-solid fa-vial"></i> View Sample
+        </button>
+        <button type="button" class="btn btn-outline-light hero-btn"><i class="fa-solid fa-server"></i> Our
+          Services</button>
+      </div>
+    </section class="row">
+
   </div>
-  <footer>
-    <p class="copyright">© Kushal Rana</p>
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p class="copyright">© Copyright Kushal Rana 2022</p>
+
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
