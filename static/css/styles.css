@@ -1,0 +1,81 @@
+.about-me{
+  color: #7735FA;
+  text-align: center;
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+.about-me-desc{
+  text-align: center;
+}
+
+.copyright{
+  margin: 0;
+  color: #eeeeee;
+  font-size: .5rem;
+}
+
+#footer{
+  margin-top: 100px;
+  padding: 7px;
+  background-color: #7735FA;
+  text-align: center;
+}
+
+.hero{
+  background-color: #7735FA;
+  padding: 3% 10%;
+}
+
+.hero-div{
+  text-align: center;
+}
+
+.hero-text{
+  font-family: 'GFS Didot', serif;
+  font-size: 2.8rem;
+  line-height: 1.2;
+  color: aliceblue;
+  text-align: left;
+  text-decoration:solid;
+}
+
+.hero-img{
+  height: 18rem;
+  width: 20rem;
+  padding: 20px 20px;
+}
+
+.navbar{
+  padding-bottom: 50px;
+}
+
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  color: #e5e5e5;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+}
+
+.site-msg{
+  color: aliceblue;
+  text-align: left;
+}
+
+.sub-contents{
+  font-family: 'Lato', sans-serif;
+}
+

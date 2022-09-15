@@ -7,7 +7,8 @@
   <title>CodeWithKushal</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -15,17 +16,17 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="static/css/styles.css">
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid hero">
 
     <section id="title" class="row">
 
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href=""><span>Developer's Hut</span></a>
+        <a class="navbar-brand" href="">Developer's Hut</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,13 +46,10 @@
         </div>
       </nav>
 
-
-
-
       <!-- Title -->
 
       <div class="col-md-6">
-        <h1>Bring your thoughts to reality with Websites</h1>
+        <h1 class="hero-text">Bring your thoughts to reality with your Websites</h1>
         <p class="site-msg">Your website is the face of your business. A well-designed website puts your best foot
           forward, establishing
           credibility and authority with your potential clients, furthermore communicating your most interesting values,
@@ -61,12 +59,14 @@
         </p>
 
       </div>
-      <div class="col-md-6">
-        <img src="images/hero.png" alt="hero-img" class="hero-img">
+      <div class="col-md-6 hero-div container">
+        <img src="static/images/hero.png" alt="hero-img" class="hero-img">
+        <div class="container" style="text-align: center;">
         <button type="button" class="btn btn-outline-light hero-btn"><i class="fa-solid fa-vial"></i> View Sample
         </button>
         <button type="button" class="btn btn-outline-light hero-btn"><i class="fa-solid fa-server"></i> Our
           Services</button>
+        </div>
       </div>
     </section class="row">
 
