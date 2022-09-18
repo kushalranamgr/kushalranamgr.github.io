@@ -7,6 +7,7 @@
 
 .about-me-desc{
   text-align: center;
+  color: #333;
 }
 
 .copyright{
@@ -67,7 +68,7 @@
 
 p{
   font-family: 'Montserrat', sans-serif;
-  color: #333333;
+  color: #eee
 }
 
 .site-msg{
