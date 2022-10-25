@@ -10,17 +10,19 @@
 --------------------------------------------------------------*/
 
 :root {
-  --primary-color:#121212;
-  --secondary-color: #ddd;
-  --hero-color: #BB86FC;
-  --navbar-color:#222;
-}
-
-.light-theme {
   --primary-color:#edf2fc;
   --secondary-color: #121212;
   --hero-color: #FF7533;
   --navbar-color:#EfFeFf;
+}
+
+.dark-theme {
+
+
+  --primary-color:#121212;
+  --secondary-color: #ddd;
+  --hero-color: #BB86FC;
+  --navbar-color:#222;
 }
 
 
@@ -728,7 +730,7 @@ a:hover {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: var(--hero-color);
+  color: var(--primary-color);
 }
 
 .navbar-mobile .getstarted,

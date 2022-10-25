@@ -10,11 +10,11 @@
 
   var icon = document.getElementById("mode-icon");
   icon.addEventListener("click", function () {
-    document.body.classList.toggle("light-theme");
-    if (document.body.classList.contains("light-theme")) {
-      icon.src = "/assets/img/moon.png";
-    } else {
+    document.body.classList.toggle("dark-theme");
+    if (document.body.classList.contains("dark-theme")) {
       icon.src = "/assets/img/sun.png";
+    } else {
+      icon.src = "/assets/img/moon.png";
     }
   }
   )
