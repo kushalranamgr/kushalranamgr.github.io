@@ -5,429 +5,163 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Kushal's Site</title>
+  <title>Kushal's Gallery</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="/assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- =======================================================
+  * Template Name: PhotoFolio - v1.2.0
+  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-      <h1 class="logo"><a href="index.html">DevRealm</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <nav id="navbar" class="navbar navbar-expand-lg">
+      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <i class="bi bi-camera"></i>
+        <h1>VidGallery</h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="gallery.html">Nature</a></li>
+              <li><a href="gallery.html">People</a></li>
+              <li><a href="gallery.html">Architecture</a></li>
+              <li><a href="gallery.html">Animals</a></li>
+              <li><a href="gallery.html">Sports</a></li>
+              <li><a href="gallery.html">Travel</a></li>
+              <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li> -->
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-        <img src="/assets/img/moon.png" alt="switch-mode" id="mode-icon">
       </nav><!-- .navbar -->
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">I am Kushal Rana</h1>
-          <p class="hero-subtitle"><span class="typed"
-              data-typed-items="Designer, Developer, Freelancer, Videographer"></span></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2>I'm <span>Kushal Rana</span> a Professional Video editor</h2>
+          <p>Need an awesome editor for your youtube/tik-tok/instagram videos ? I provide relilable service for any type of contents you need. </p>
+          <a href="contact.html" class="btn-get-started">Available for hire</a>
         </div>
       </div>
     </div>
-  </div><!-- End Hero Section -->
+  </section><!-- End Hero Section -->
 
-  <main id="main">
+  <main id="main" data-aos="fade" data-aos-delay="1500">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/profile.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Kushal Rana</span></p>
-                        <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>kushalranaofficial@gmail.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>+971547464951</span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skill</p>
-                    <span>HTML</span> <span class="pull-right">85%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>CSS3</span> <span class="pull-right">75%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>Python</span> <span class="pull-right">80%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>JAVASCRIPT</span> <span class="pull-right">70%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      A website is a must for any business in this era to get an online presence and reach out to their 
-                      potential clients. But setting up a website can be challanging for new businessses and 
-                      hard to maintain. I will take upon that task so that you can focus on expanding your business.
-                    </p>
-                    <p class="lead">
-                      I'm a Web designer/developer that is skilled in both frontend and backend development.
-                      I currently work as a freelancer and am comitted to provide varrious services to my clients 
-                      with fair and reasonsable price.
-                      <br>
-                      <br>
-                      I will use HTML, CSS, Javascript and ReactJs to build you a responsive website.
-                      I will use NodeJs or django to build you a dynamic website as per your needs.
-                      I will use MongoDB or SQL as your Databases to keep your valuable data safe and efficient.
-                    </p>
-                 
-                    <p class="lead">
-                      
-                    </p>
-                  </div>
-                </div>
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container-fluid">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/img/gallery/csgo.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center"> 
+                <a href="https://drive.google.com/file/d/1zP67aaqbotpbPGXJKyZDwGZ1KI_0vDB2/view?usp=share_link" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/img/gallery/rich.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="https://drive.google.com/file/d/1AwbA1fFrhueHVET7A5CdWmWuYzcxpHae/view?usp=share_link" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
         </div>
+
       </div>
-    </section><!-- End About Section -->
-
-        <!-- ======= Counter Section ======= -->
-        <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-          <div class="overlay-mf"></div>
-          <div class="container position-relative">
-            <div class="row">
-              <div class="col-sm-3 col-lg-3">
-                <div class="counter-box counter-box pt-4 pt-md-0">
-                  <div class="counter-ico">
-                    <span class="ico-circle"><i class="bi bi-check"></i></span>
-                  </div>
-                  <div class="counter-num">
-                    <p data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
-                      class="counter purecounter"></p>
-                    <span class="counter-text">WORKS COMPLETED</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3 col-lg-3">
-                <div class="counter-box pt-4 pt-md-0">
-                  <div class="counter-ico">
-                    <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
-                  </div>
-                  <div class="counter-num">
-                    <p data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
-                      class="counter purecounter"></p>
-                    <span class="counter-text">YEARS OF EXPERIENCE</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3 col-lg-3">
-                <div class="counter-box pt-4 pt-md-0">
-                  <div class="counter-ico">
-                    <span class="ico-circle"><i class="bi bi-people"></i></span>
-                  </div>
-                  <div class="counter-num">
-                    <p data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                      class="counter purecounter"></p>
-                    <span class="counter-text">TOTAL CLIENTS</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3 col-lg-3">
-                <div class="counter-box pt-4 pt-md-0">
-                  <div class="counter-ico">
-                    <span class="ico-circle"><i class="bi bi-award"></i></span>
-                  </div>
-                  <div class="counter-num">
-                    <p data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1"
-                      class="counter purecounter"></p>
-                    <span class="counter-text">CUSTOMER SATISFACTION</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Counter Section-->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services-mf pt-5 route bg-image">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Services
-              </h3>
-              <p class="subtitle-a">
-                I am confidient and willing to provide services to you on following
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
-                <p class="s-description text-center">
-                  Design visually captive and efficient user interaction/experience based website that 
-                   relays your messages and services clearly.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
-                <p class="s-description text-center">
-                  Develop your website using HTML, CSS, Javascript and react and turn your website designs into 
-                  an awesome and beautiful website.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Back-End Development</h2>
-                <p class="s-description text-center">
-                  Design and develop efficient backend for your web server using Django/NodeJs to make your website
-                  dynamic and connect it to database.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Responsive Design</h2>
-                <p class="s-description text-center">
-                  Make your website responsive and enable it to run smoothly and beautifully on any devices like desktops,
-                  tablets and mobile phones.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">3D Design</h2>
-                <p class="s-description text-center">
-                  Design and develop 3D websites for you that is modern and interactive that gives you and edge over your
-                  competotors on innovation of websites.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Marketing Services</h2>
-                <p class="s-description text-center">
-                  Incorporate varrious services like email-marketing and auto reply feature in your website that will help you
-                  with maarketing of your business.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Services Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
-      style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Send Message Us
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="https://formsubmit.co/kushalranaofficial@gmail.com" method="POST" role="form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                                required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                required>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                                required></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class=" submit-form button button-a button-big button-rouded">
-                              Send Message</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
-                    </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        Contact me at my email or submit a quick form from here to reach me.
-                        I welcome you for any further inquries regarding my services or discussion on any Sservices
-                         that you want to purchase and make adjustments according to your needs.
-                        I will reach out to you as soon as possible.
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span> Galyang,Syangja Nepal</li>
-                        <li><span class="bi bi-phone"></span> +971547464951</li>
-                        <li><span class="bi bi-envelope"></span> kushalranaofficial@gmail.com</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Contact Section -->
+    </section><!-- End Gallery Section -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer>
+  <footer id="footer" class="footer">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>DevRealm</strong>. All Rights Reserved</p>
-            <div class="credits">
-            </div>
-          </div>
-        </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>VidGallery</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  </footer><!-- End  Footer -->
+  </footer><!-- End Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
